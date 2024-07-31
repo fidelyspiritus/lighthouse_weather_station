@@ -21,11 +21,9 @@ class WindSensorNode(Node):
         speed_msg.data = wind_speed
         self.speed_publisher.publish(speed_msg)
 
-
         direction_msg = Int16()
         direction_msg.data = wind_direction
         self.direction_publisher.publish(direction_msg)
-
 
         self.get_logger().info(f'Published Wind Speed: {wind_speed} m/s, Direction: {wind_direction} degrees')
 

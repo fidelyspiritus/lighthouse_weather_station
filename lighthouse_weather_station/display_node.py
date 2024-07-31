@@ -9,6 +9,7 @@ class DisplayNode(Node):
         # Определение топиков, соответствующих типов сообщений и единиц измерения
         self.topics = {
             'temperature': (Int16, 'Celsius'),
+            'humidity': (Int16, '%'), 
             'lightness': (Int16, 'Lux'),
             'light_status': (String, ''),
             'wind_speed': (Float64, 'm/s'),
