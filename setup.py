@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
         'temperature_sensor = lighthouse_weather_station.temperature_sensor_node:main',
         'light_sensor = lighthouse_weather_station.light_sensor_node:main',
-        'display = lighthouse_weather_station.display_node:main'
+        'display = lighthouse_weather_station.display_node:main',
+        'switch_light = lighthouse_weather_station.switch_light_node:main'
         ],
     },
 )
