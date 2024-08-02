@@ -24,7 +24,8 @@ setup(
         'light_sensor = lighthouse_weather_station.light_sensor_node:main',
         'display = lighthouse_weather_station.display_node:main',
         'switch_light = lighthouse_weather_station.switch_light_node:main',
-        'wind_sensor = lighthouse_weather_station.wind_sensor_node:main'
+        'wind_sensor = lighthouse_weather_station.wind_sensor_node:main',
+        'weather_analise = lighthouse_weather_station.weather_analiser_node:main'
         ],
     },
 )
